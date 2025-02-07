@@ -14,17 +14,17 @@ draw = function(){
     background(255,255,255,0);
  
      drawJelly(x+610,100);
-    drawJelly(x+400,360);
+    drawJelly(x+400,320);
   
-    drawPuff(x+200,280);
-    drawPuff(x+300, 150);
+    drawPuff(x+180,230);
+    drawPuff(x+400, 150);
     
     drawWhale(x+5,120);
-    drawWhale(x+600,300);
+    drawWhale(x+520,250);
     drawWhale (x+200,360);
     
-    drawFish(x+20,260);
-    drawFish (x+400, 200);
+    drawFish(x+20,300);
+    drawFish (x+200, 100);
  
   x=x+-1;
   
